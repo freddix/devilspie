@@ -1,0 +1,13 @@
+diff -aurN devilspie-0.22.orig/configure.in devilspie-0.22/configure.in
+--- devilspie-0.22.orig/configure.in	2012-12-09 12:57:45.495304476 +0100
++++ devilspie-0.22/configure.in	2012-12-09 13:00:18.803735231 +0100
+@@ -27,7 +27,8 @@
+ PKG_CHECK_MODULES(WNCK,
+         glib-2.0 >= 2.9.1
+         gdk-2.0
+-        libwnck-1.0 >= 0.17)
++        libwnck-1.0 >= 0.17
++        x11)
+ AC_SUBST(WNCK_CFLAGS)
+ AC_SUBST(WNCK_LIBS)
+ 
